@@ -1,6 +1,3 @@
-from stats import num_of_words
-
-
 def main():
     num_words = num_of_words((get_book_text("books/frankenstein.txt")))
 
