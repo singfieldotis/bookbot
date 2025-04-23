@@ -9,6 +9,4 @@ def letter_counter(string):
     letter_counts: dict[str, int] = {}
 
     for char in string:
-        letter_counts[char] = letter_counts.get(char, 0) + 1
-
-    return letter_counts
+        counts[char] = counts.get(char, 0) + 1
