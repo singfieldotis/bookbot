@@ -1,4 +1,4 @@
 FROM debian:stable-slim
 #COPY source destination
-COPY goserver /bin/goserver
-CMD ["/bin/goserver"]
+COPY bookbot /bin/bookbot
+CMD ["/bin/bookbot"]
